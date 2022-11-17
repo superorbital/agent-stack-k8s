@@ -93,6 +93,7 @@ spec:
     args:
     - exec
     - --
+    - gradle
     - jib
     - --image=ttl.sh/example:1h
     workingDir: /workspace
